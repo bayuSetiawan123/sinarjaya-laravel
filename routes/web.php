@@ -1,0 +1,58 @@
+<?php
+
+use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+*/
+
+// =========================
+// Halaman Website Sinar Jaya
+// =========================
+
+Route::get('/', function () {
+    return view('beranda');
+})->name('home');
+
+Route::get('/katalog', function () {
+    return view('katalog');
+})->name('katalog');
+
+Route::get('/rfq', function () {
+    return view('rfq');
+})->name('rfq');
+
+
+// =========================
+// Dashboard setelah login
+// =========================
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+
+// =========================
+// Profile
+// =========================
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])
+        ->name('profile.edit');
+
+    Route::patch('/profile', [ProfileController::class, 'update'])
+        ->name('profile.update');
+
+    Route::delete('/profile', [ProfileController::class, 'destroy'])
+        ->name('profile.destroy');
+});
+
+
+// =========================
+// Authentication Breeze
+// =========================
+
+require __DIR__.'/auth.php';
