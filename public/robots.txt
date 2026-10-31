@@ -1,2 +1,15 @@
+# Aturan crawling untuk website Toko Bangunan Sinar Jaya
 User-agent: *
-Disallow:
+Allow: /
+
+# Halaman akun dan area terbatas tidak ditujukan untuk hasil pencarian
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /verify-email
+Disallow: /confirm-password
+
+Sitemap: https://bangunan-sinarjaya.vercel.app/sitemap.xml
