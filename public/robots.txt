@@ -12,4 +12,4 @@ Disallow: /reset-password
 Disallow: /verify-email
 Disallow: /confirm-password
 
-Sitemap: https://bangunan-sinarjaya.vercel.app/sitemap.xml
+Sitemap: https://tokobangunan-sinarjaya.vercel.app/sitemap.xml
