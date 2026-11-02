@@ -4,7 +4,13 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>TB Sinar Jaya Jatayu - Toko Bahan Bangunan Kebayoran Baru</title>
+    <title>Toko Bangunan Sinar Jaya | Jatayu, Kebayoran Baru</title>
+
+    <meta name="description"
+          content="Toko Bangunan Sinar Jaya menyediakan informasi dan katalog material bangunan di kawasan Jatayu, Kebayoran Baru. Lihat pilihan produk dan hubungi toko untuk informasi lebih lanjut.">
+
+    <link rel="canonical"
+          href="https://tokobangunan-sinarjaya.vercel.app/">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>

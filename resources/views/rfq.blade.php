@@ -5,7 +5,13 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Checkout &amp; Permintaan Penawaran (RFQ) - Sinar Jaya</title>
+    <title>Permintaan Penawaran Material Bangunan (RFQ) | Sinar Jaya</title>
+
+    <meta name="description"
+        content="Susun daftar kebutuhan material dan buat permintaan penawaran (RFQ) kepada Toko Bangunan Sinar Jaya di Jatayu, Kebayoran Baru. Ringkasan permintaan dapat disiapkan untuk dikirim melalui WhatsApp.">
+
+    <link rel="canonical"
+        href="https://tokobangunan-sinarjaya.vercel.app/rfq">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />

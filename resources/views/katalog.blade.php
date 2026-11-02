@@ -4,7 +4,13 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Katalog Material &amp; Bahan Bangunan - Sinar Jaya</title>
+    <title>Katalog Material Bangunan | Toko Bangunan Sinar Jaya</title>
+
+    <meta name="description"
+        content="Jelajahi katalog material dan bahan bangunan Toko Bangunan Sinar Jaya di Jatayu, Kebayoran Baru. Lihat kategori dan contoh spesifikasi produk, lalu susun kebutuhan melalui RFQ.">
+
+    <link rel="canonical"
+        href="https://tokobangunan-sinarjaya.vercel.app/katalog">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
