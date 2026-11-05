@@ -159,16 +159,28 @@
 
 <section id="home" class="relative bg-[#001428] overflow-hidden text-white">
 
-    <div class="absolute inset-0 z-0">
-        <div
-            class="w-full h-full bg-cover bg-center"
-            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCH1LncYwTD4Z9TgiSK9Wis6FhdFNABTf3GOFjjWUDD-ranfG_LHgzRhzaGSZ8T-oCQUYINkVG03Jgl634pvGpaG2Wpt-JmpCBGoiBr3fjZzg5jJAhBYwv-w2kBt9j4HGhybjEbxOYeG3rVj7dyIwKtMCIqbqMflNsW4PujFdLa_QYT985yCrBTqaBVVxOn5rA-tRK51fb72ujRLbnoTfQGArfX2Dz8RF8MqDKh3n3DOPTylVxB12WY')"
-        ></div>
+    
+<div class="absolute inset-0 z-0">
 
+    <!-- Hero Background Image -->
+        <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH1LncYwTD4Z9TgiSK9Wis6FhdFNABTf3GOFjjWUDD-ranfG_LHgzRhzaGSZ8T-oCQUYINkVG03Jgl634pvGpaG2Wpt-JmpCBGoiBr3fjZzg5jJAhBYwv-w2kBt9j4HGhybjEbxOYeG3rVj7dyIwKtMCIqbqMflNsW4PujFdLa_QYT985yCrBTqaBVVxOn5rA-tRK51fb72ujRLbnoTfQGArfX2Dz8RF8MqDKh3n3DOPTylVxB12WY"
+            alt=""
+            aria-hidden="true"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            class="absolute inset-0 w-full h-full object-cover object-center"
+        >
+
+        <!-- Gradient Overlay -->
         <div class="absolute inset-0 bg-gradient-to-r from-[#001428] via-[#001428]/95 to-[#0f2942]/85"></div>
 
+        <!-- Radial Overlay -->
         <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#a83900]/20 via-transparent to-transparent"></div>
+
     </div>
+
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-24 lg:py-28">
 
