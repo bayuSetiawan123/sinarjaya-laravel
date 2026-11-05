@@ -540,382 +540,394 @@
         <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <!-- Product 1 -->
-            <article
-                class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
-                data-category="Semen & Pasir"
-                data-name="Semen Tiga Roda 50kg Portland Composite Cement"
-                data-price="68500"
-                data-unit="sak"
-            >
-                <div class="p-4">
+                <article
+                    class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
+                    data-category="Semen & Pasir"
+                    data-name="Semen Tiga Roda 50kg Portland Composite Cement"
+                    data-price="68500"
+                    data-unit="sak"
+                >
+                    <div class="p-4">
 
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
-                            Contoh
-                        </span>
-
-                        <span class="text-[11px] text-[#74777e]">
-                            SMN-TR-50
-                        </span>
-                    </div>
-
-                    <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
-                        <img
-                            class="h-full w-auto object-contain mix-blend-multiply"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6FqOsQ6rB2Xz82YIiDV5cTtR8EmDJDNw04NBOIXYfLQbhiitBEYCGQ4QbIeEDK6pyKb2yIgMEPtCF-H59LCEd5MJz_ZqEYfx6sN0OPv61AVvOFO05GOZGWIVguNqTgAQNycdU920s09W7RAN_GIMK_DbWaqD5b6COZvSNTk8ARfP70pvuaiKhn3h2yFIGYGiC6gzFs716IRMlfP3MGh1tjXEJWWFjQuKx4gv38-XvcxAMkkbSdYij"
-                            alt="Contoh gambar semen"
-                        />
-                    </div>
-
-                    <p class="text-xs text-[#a83900] font-semibold mb-1">
-                        Semen &amp; Pasir
-                    </p>
-
-                    <h3 class="text-base font-bold leading-snug mb-3">
-                        Semen Tiga Roda 50kg Portland Composite Cement
-                    </h3>
-
-                    <div class="pt-3 border-t border-[#eceef0]">
-                        <p class="text-xs text-[#74777e]">
-                            Harga contoh
-                        </p>
-
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-xl font-bold text-[#001428]">
-                                Rp 68.500
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
+                                Contoh
                             </span>
 
-                            <span class="text-xs text-[#43474d]">
-                                / sak
+                            <span class="text-[11px] text-[#74777e]">
+                                SMN-TR-50
                             </span>
                         </div>
-                    </div>
-                </div>
 
-                <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
-                    <button
-                        type="button"
-                        class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
-                    >
-                        <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
-                        <span>+ Tambah ke RFQ</span>
-                    </button>
-                </div>
-            </article>
+                        <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
+                            <img
+                                class="h-full w-auto object-contain mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6FqOsQ6rB2Xz82YIiDV5cTtR8EmDJDNw04NBOIXYfLQbhiitBEYCGQ4QbIeEDK6pyKb2yIgMEPtCF-H59LCEd5MJz_ZqEYfx6sN0OPv61AVvOFO05GOZGWIVguNqTgAQNycdU920s09W7RAN_GIMK_DbWaqD5b6COZvSNTk8ARfP70pvuaiKhn3h2yFIGYGiC6gzFs716IRMlfP3MGh1tjXEJWWFjQuKx4gv38-XvcxAMkkbSdYij"
+                                alt="Contoh gambar semen"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
 
-
-            <!-- Product 2 -->
-            <article
-                class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
-                data-category="Besi & Baja"
-                data-name="Besi Beton Ulir 12mm x 12m SNI"
-                data-price="118000"
-                data-unit="batang"
-            >
-                <div class="p-4">
-
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#eef5ff] text-[#0f2942] border border-[#b0c9e8]">
-                            Contoh
-                        </span>
-
-                        <span class="text-[11px] text-[#74777e]">
-                            BSI-UL-12
-                        </span>
-                    </div>
-
-                    <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
-                        <img
-                            class="h-full w-auto object-contain mix-blend-multiply"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQk_lOp9r7KurDi00b783TgCCMGvMUynd4aBpYHuNoQM5h_P9JcaT1t_qdkM-saR2R0AU3szFa4Qt7JW2q3V-05Z_TU-1Jdlz5v35jIwwMQC7kWBN-bA46C6h7ujEFS2HkY9FLkW8RjgXhxOgfz9smat1A_yKmPN_9efmQPGRY_GE1K4qq5fW756nlZXnmmXGBWSvLskCtk1P4qYUmAOOG9SSIbaWhdWe13yytm0UINEI6AZzUIBgK"
-                            alt="Contoh gambar besi beton"
-                        />
-                    </div>
-
-                    <p class="text-xs text-[#a83900] font-semibold mb-1">
-                        Besi &amp; Baja
-                    </p>
-
-                    <h3 class="text-base font-bold leading-snug mb-3">
-                        Besi Beton Ulir 12mm x 12m SNI
-                    </h3>
-
-                    <div class="pt-3 border-t border-[#eceef0]">
-                        <p class="text-xs text-[#74777e]">
-                            Harga contoh
+                        <p class="text-xs text-[#a83900] font-semibold mb-1">
+                            Semen &amp; Pasir
                         </p>
 
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-xl font-bold text-[#001428]">
-                                Rp 118.000
-                            </span>
+                        <h3 class="text-base font-bold leading-snug mb-3">
+                            Semen Tiga Roda 50kg Portland Composite Cement
+                        </h3>
 
-                            <span class="text-xs text-[#43474d]">
-                                / batang
-                            </span>
+                        <div class="pt-3 border-t border-[#eceef0]">
+                            <p class="text-xs text-[#74777e]">
+                                Harga contoh
+                            </p>
+
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-[#001428]">
+                                    Rp 68.500
+                                </span>
+
+                                <span class="text-xs text-[#43474d]">
+                                    / sak
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
-                    <button
-                        type="button"
-                        class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
-                    >
-                        <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
-                        <span>+ Tambah ke RFQ</span>
-                    </button>
-                </div>
-            </article>
-
-
-            <!-- Product 3 -->
-            <article
-                class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
-                data-category="Cat & Pelapis"
-                data-name="Cat Tembok Dulux Weathershield 20L"
-                data-price="1450000"
-                data-unit="pail"
-            >
-                <div class="p-4">
-
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
-                            Contoh
-                        </span>
-
-                        <span class="text-[11px] text-[#74777e]">
-                            DLX-WS-20L
-                        </span>
+                    <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
+                        <button
+                            type="button"
+                            class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
+                        >
+                            <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+                            <span>+ Tambah ke RFQ</span>
+                        </button>
                     </div>
+                </article>
 
-                    <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
-                        <img
-                            class="h-full w-auto object-contain mix-blend-multiply"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-vkxyqYhpihV-bN4wiUBZnjabj0RMdXRKX9e8zHjZ-jaqHM88DeTRmd6N1hbcaa5VTXVhOKfHT4Ui6GhVrg_crhFRpktfu4R7BBvAMscfZ2gOup38QoXpsrjHSYwE3cXLpVFJ1GjJ0h1iC57MPIb3K8WzQ8B4GLHzEgqOVj0axat9NxZNdMBmna086PfFmAG1czgO4DBmfKuiz-ZOViukGEbaU62ouqDDiqbhOLz1K3FdAm3x-QM5"
-                            alt="Contoh gambar cat"
-                        />
-                    </div>
 
-                    <p class="text-xs text-[#a83900] font-semibold mb-1">
-                        Cat &amp; Pelapis
-                    </p>
+                <!-- Product 2 -->
+                <article
+                    class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
+                    data-category="Besi & Baja"
+                    data-name="Besi Beton Ulir 12mm x 12m SNI"
+                    data-price="118000"
+                    data-unit="batang"
+                >
+                    <div class="p-4">
 
-                    <h3 class="text-base font-bold leading-snug mb-3">
-                        Cat Tembok Dulux Weathershield 20L
-                    </h3>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#eef5ff] text-[#0f2942] border border-[#b0c9e8]">
+                                Contoh
+                            </span>
 
-                    <div class="pt-3 border-t border-[#eceef0]">
-                        <p class="text-xs text-[#74777e]">
-                            Harga contoh
+                            <span class="text-[11px] text-[#74777e]">
+                                BSI-UL-12
+                            </span>
+                        </div>
+
+                        <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
+                            <img
+                                class="h-full w-auto object-contain mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQk_lOp9r7KurDi00b783TgCCMGvMUynd4aBpYHuNoQM5h_P9JcaT1t_qdkM-saR2R0AU3szFa4Qt7JW2q3V-05Z_TU-1Jdlz5v35jIwwMQC7kWBN-bA46C6h7ujEFS2HkY9FLkW8RjgXhxOgfz9smat1A_yKmPN_9efmQPGRY_GE1K4qq5fW756nlZXnmmXGBWSvLskCtk1P4qYUmAOOG9SSIbaWhdWe13yytm0UINEI6AZzUIBgK"
+                                alt="Contoh gambar besi beton"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+
+                        <p class="text-xs text-[#a83900] font-semibold mb-1">
+                            Besi &amp; Baja
                         </p>
 
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-xl font-bold text-[#001428]">
-                                Rp 1.450.000
-                            </span>
+                        <h3 class="text-base font-bold leading-snug mb-3">
+                            Besi Beton Ulir 12mm x 12m SNI
+                        </h3>
 
-                            <span class="text-xs text-[#43474d]">
-                                / pail
-                            </span>
+                        <div class="pt-3 border-t border-[#eceef0]">
+                            <p class="text-xs text-[#74777e]">
+                                Harga contoh
+                            </p>
+
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-[#001428]">
+                                    Rp 118.000
+                                </span>
+
+                                <span class="text-xs text-[#43474d]">
+                                    / batang
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
-                    <button
-                        type="button"
-                        class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
-                    >
-                        <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
-                        <span>+ Tambah ke RFQ</span>
-                    </button>
-                </div>
-            </article>
-
-
-            <!-- Product 4 -->
-            <article
-                class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
-                data-category="Pipa & Sanitari"
-                data-name="Pipa PVC Rucika D 3 Inch 4 Meter"
-                data-price="88000"
-                data-unit="batang"
-            >
-                <div class="p-4">
-
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#eef5ff] text-[#0f2942] border border-[#b0c9e8]">
-                            Contoh
-                        </span>
-
-                        <span class="text-[11px] text-[#74777e]">
-                            PIP-RC-D3
-                        </span>
+                    <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
+                        <button
+                            type="button"
+                            class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
+                        >
+                            <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+                            <span>+ Tambah ke RFQ</span>
+                        </button>
                     </div>
+                </article>
 
-                    <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
-                        <img
-                            class="h-full w-auto object-contain mix-blend-multiply"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6gIw7w-nPlx49NAqIFM7Mqhr0h4jrD8bWAV4ZBevx9BwR_48YLCSHeq0kpAaGrIuvWfe42nklfUQ5bVRE1oHkS778Sa9JYg3sHzLN4R0a6L5Ol-pwxQl4H4r5kEagyfNjhkeUCK3mtmePmmpFf9t7H4vRS8hwHS_QIDQnHJp7Av09jwcDoaAmfqJ27nv57hRrhOOppRRKEFoy_ZfQJCgG_Q_y3E9IUrTALljA02hlp9a240r5GjLz"
-                            alt="Contoh gambar pipa PVC"
-                        />
-                    </div>
 
-                    <p class="text-xs text-[#a83900] font-semibold mb-1">
-                        Pipa &amp; Sanitari
-                    </p>
+                <!-- Product 3 -->
+                <article
+                    class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
+                    data-category="Cat & Pelapis"
+                    data-name="Cat Tembok Dulux Weathershield 20L"
+                    data-price="1450000"
+                    data-unit="pail"
+                >
+                    <div class="p-4">
 
-                    <h3 class="text-base font-bold leading-snug mb-3">
-                        Pipa PVC Rucika D 3" Panjang 4 Meter
-                    </h3>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
+                                Contoh
+                            </span>
 
-                    <div class="pt-3 border-t border-[#eceef0]">
-                        <p class="text-xs text-[#74777e]">
-                            Harga contoh
+                            <span class="text-[11px] text-[#74777e]">
+                                DLX-WS-20L
+                            </span>
+                        </div>
+
+                        <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
+                            <img
+                                class="h-full w-auto object-contain mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-vkxyqYhpihV-bN4wiUBZnjabj0RMdXRKX9e8zHjZ-jaqHM88DeTRmd6N1hbcaa5VTXVhOKfHT4Ui6GhVrg_crhFRpktfu4R7BBvAMscfZ2gOup38QoXpsrjHSYwE3cXLpVFJ1GjJ0h1iC57MPIb3K8WzQ8B4GLHzEgqOVj0axat9NxZNdMBmna086PfFmAG1czgO4DBmfKuiz-ZOViukGEbaU62ouqDDiqbhOLz1K3FdAm3x-QM5"
+                                alt="Contoh gambar cat"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+
+                        <p class="text-xs text-[#a83900] font-semibold mb-1">
+                            Cat &amp; Pelapis
                         </p>
 
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-xl font-bold text-[#001428]">
-                                Rp 88.000
-                            </span>
+                        <h3 class="text-base font-bold leading-snug mb-3">
+                            Cat Tembok Dulux Weathershield 20L
+                        </h3>
 
-                            <span class="text-xs text-[#43474d]">
-                                / batang
-                            </span>
+                        <div class="pt-3 border-t border-[#eceef0]">
+                            <p class="text-xs text-[#74777e]">
+                                Harga contoh
+                            </p>
+
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-[#001428]">
+                                    Rp 1.450.000
+                                </span>
+
+                                <span class="text-xs text-[#43474d]">
+                                    / pail
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
-                    <button
-                        type="button"
-                        class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
-                    >
-                        <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
-                        <span>+ Tambah ke RFQ</span>
-                    </button>
-                </div>
-            </article>
-
-
-            <!-- Product 5 -->
-            <article
-                class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
-                data-category="Besi & Baja"
-                data-name="Baja Ringan Canal C75 Tebal 0.75mm"
-                data-price="79000"
-                data-unit="batang"
-            >
-                <div class="p-4">
-
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
-                            Contoh
-                        </span>
-
-                        <span class="text-[11px] text-[#74777e]">
-                            BJR-C75-75
-                        </span>
+                    <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
+                        <button
+                            type="button"
+                            class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
+                        >
+                            <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+                            <span>+ Tambah ke RFQ</span>
+                        </button>
                     </div>
+                </article>
 
-                    <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
-                        <img
-                            class="h-full w-auto object-contain mix-blend-multiply"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB16XSVkQ5yF52lerp6wWb9AYkiEV8dZMJb3k6RXf0s1lV4LApcF-PDeh_FzcKYPw2Z8UJ_nxK67KwyQbe3ojoOoCaIpFij8EYkh1BLFQqSjE0j3kWtlR-kn9iAtV9hB5ap81-DvY4zM8W7N-BnZEhUrX-ke39p6cfdouomqW9d73cMAEBq3bgKG4iXXHybqXIAzZgeyoaHiDjFMYJUS-irzI6wW-UGu6QvfLZtHwcsjKb3sc79nwjT"
-                            alt="Contoh gambar baja ringan"
-                        />
-                    </div>
 
-                    <p class="text-xs text-[#a83900] font-semibold mb-1">
-                        Besi &amp; Baja
-                    </p>
+                <!-- Product 4 -->
+                <article
+                    class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
+                    data-category="Pipa & Sanitari"
+                    data-name="Pipa PVC Rucika D 3 Inch 4 Meter"
+                    data-price="88000"
+                    data-unit="batang"
+                >
+                    <div class="p-4">
 
-                    <h3 class="text-base font-bold leading-snug mb-3">
-                        Baja Ringan Canal C75 Tebal 0.75mm
-                    </h3>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#eef5ff] text-[#0f2942] border border-[#b0c9e8]">
+                                Contoh
+                            </span>
 
-                    <div class="pt-3 border-t border-[#eceef0]">
-                        <p class="text-xs text-[#74777e]">
-                            Harga contoh
+                            <span class="text-[11px] text-[#74777e]">
+                                PIP-RC-D3
+                            </span>
+                        </div>
+
+                        <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
+                            <img
+                                class="h-full w-auto object-contain mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6gIw7w-nPlx49NAqIFM7Mqhr0h4jrD8bWAV4ZBevx9BwR_48YLCSHeq0kpAaGrIuvWfe42nklfUQ5bVRE1oHkS778Sa9JYg3sHzLN4R0a6L5Ol-pwxQl4H4r5kEagyfNjhkeUCK3mtmePmmpFf9t7H4vRS8hwHS_QIDQnHJp7Av09jwcDoaAmfqJ27nv57hRrhOOppRRKEFoy_ZfQJCgG_Q_y3E9IUrTALljA02hlp9a240r5GjLz"
+                                alt="Contoh gambar pipa PVC"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+
+                        <p class="text-xs text-[#a83900] font-semibold mb-1">
+                            Pipa &amp; Sanitari
                         </p>
 
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-xl font-bold text-[#001428]">
-                                Rp 79.000
-                            </span>
+                        <h3 class="text-base font-bold leading-snug mb-3">
+                            Pipa PVC Rucika D 3" Panjang 4 Meter
+                        </h3>
 
-                            <span class="text-xs text-[#43474d]">
-                                / batang
-                            </span>
+                        <div class="pt-3 border-t border-[#eceef0]">
+                            <p class="text-xs text-[#74777e]">
+                                Harga contoh
+                            </p>
+
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-[#001428]">
+                                    Rp 88.000
+                                </span>
+
+                                <span class="text-xs text-[#43474d]">
+                                    / batang
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
-                    <button
-                        type="button"
-                        class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
-                    >
-                        <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
-                        <span>+ Tambah ke RFQ</span>
-                    </button>
-                </div>
-            </article>
-
-
-            <!-- Product 6 -->
-            <article
-                class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
-                data-category="Semen & Pasir"
-                data-name="Mortar Utama MU-380 40kg"
-                data-price="105000"
-                data-unit="sak"
-            >
-                <div class="p-4">
-
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
-                            Contoh
-                        </span>
-
-                        <span class="text-[11px] text-[#74777e]">
-                            MRT-MU-380
-                        </span>
+                    <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
+                        <button
+                            type="button"
+                            class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
+                        >
+                            <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+                            <span>+ Tambah ke RFQ</span>
+                        </button>
                     </div>
+                </article>
 
-                    <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
-                        <img
-                            class="h-full w-auto object-contain mix-blend-multiply"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_5h_aSPg13RX6Tq8djSKwe1P7NYNw_B8LchmocEjbRPGxD3LAS21BUBYVHmGVwNZDvFlFA47GCSLbIz-cynVoUw2QpOyqI9-itnYkh5pgOFeqUs5u5-mW6zvJ_jRCz8I9F0Qz-oWK-sOHo0NM-udjLZABgZpKfA8t57Blwa13_-Olamqup5LAkOa7HKoG2iYTPRDy_G76UzaCpl56M6Rm_uQC6EK8yOMNWp_n3-X1BrPG-rI2uQ"
-                            alt="Contoh gambar mortar"
-                        />
-                    </div>
 
-                    <p class="text-xs text-[#a83900] font-semibold mb-1">
-                        Semen &amp; Pasir
-                    </p>
+                <!-- Product 5 -->
+                <article
+                    class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
+                    data-category="Besi & Baja"
+                    data-name="Baja Ringan Canal C75 Tebal 0.75mm"
+                    data-price="79000"
+                    data-unit="batang"
+                >
+                    <div class="p-4">
 
-                    <h3 class="text-base font-bold leading-snug mb-3">
-                        Mortar Utama MU-380 Perekat Bata Ringan 40kg
-                    </h3>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
+                                Contoh
+                            </span>
 
-                    <div class="pt-3 border-t border-[#eceef0]">
-                        <p class="text-xs text-[#74777e]">
-                            Harga contoh
+                            <span class="text-[11px] text-[#74777e]">
+                                BJR-C75-75
+                            </span>
+                        </div>
+
+                        <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
+                            <img
+                                class="h-full w-auto object-contain mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB16XSVkQ5yF52lerp6wWb9AYkiEV8dZMJb3k6RXf0s1lV4LApcF-PDeh_FzcKYPw2Z8UJ_nxK67KwyQbe3ojoOoCaIpFij8EYkh1BLFQqSjE0j3kWtlR-kn9iAtV9hB5ap81-DvY4zM8W7N-BnZEhUrX-ke39p6cfdouomqW9d73cMAEBq3bgKG4iXXHybqXIAzZgeyoaHiDjFMYJUS-irzI6wW-UGu6QvfLZtHwcsjKb3sc79nwjT"
+                                alt="Contoh gambar baja ringan"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+
+                        <p class="text-xs text-[#a83900] font-semibold mb-1">
+                            Besi &amp; Baja
                         </p>
 
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-xl font-bold text-[#001428]">
-                                Rp 105.000
-                            </span>
+                        <h3 class="text-base font-bold leading-snug mb-3">
+                            Baja Ringan Canal C75 Tebal 0.75mm
+                        </h3>
 
-                            <span class="text-xs text-[#43474d]">
-                                / sak
-                            </span>
+                        <div class="pt-3 border-t border-[#eceef0]">
+                            <p class="text-xs text-[#74777e]">
+                                Harga contoh
+                            </p>
+
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-[#001428]">
+                                    Rp 79.000
+                                </span>
+
+                                <span class="text-xs text-[#43474d]">
+                                    / batang
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
+                        <button
+                            type="button"
+                            class="add-rfq-btn w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded bg-[#a83900] hover:bg-[#fc6018] text-white font-semibold transition"
+                        >
+                            <span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+                            <span>+ Tambah ke RFQ</span>
+                        </button>
+                    </div>
+                </article>
+
+
+                <!-- Product 6 -->
+                <article
+                    class="product-card bg-white border border-[#c3c6ce] rounded flex flex-col justify-between hover:shadow-lg transition"
+                    data-category="Semen & Pasir"
+                    data-name="Mortar Utama MU-380 40kg"
+                    data-price="105000"
+                    data-unit="sak"
+                >
+                    <div class="p-4">
+
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
+                                Contoh
+                            </span>
+
+                            <span class="text-[11px] text-[#74777e]">
+                                MRT-MU-380
+                            </span>
+                        </div>
+
+                        <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
+                            <img
+                                class="h-full w-auto object-contain mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_5h_aSPg13RX6Tq8djSKwe1P7NYNw_B8LchmocEjbRPGxD3LAS21BUBYVHmGVwNZDvFlFA47GCSLbIz-cynVoUw2QpOyqI9-itnYkh5pgOFeqUs5u5-mW6zvJ_jRCz8I9F0Qz-oWK-sOHo0NM-udjLZABgZpKfA8t57Blwa13_-Olamqup5LAkOa7HKoG2iYTPRDy_G76UzaCpl56M6Rm_uQC6EK8yOMNWp_n3-X1BrPG-rI2uQ"
+                                alt="Contoh gambar mortar"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+
+                        <p class="text-xs text-[#a83900] font-semibold mb-1">
+                            Semen &amp; Pasir
+                        </p>
+
+                        <h3 class="text-base font-bold leading-snug mb-3">
+                            Mortar Utama MU-380 Perekat Bata Ringan 40kg
+                        </h3>
+
+                        <div class="pt-3 border-t border-[#eceef0]">
+                            <p class="text-xs text-[#74777e]">
+                                Harga contoh
+                            </p>
+
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-[#001428]">
+                                    Rp 105.000
+                                </span>
+
+                                <span class="text-xs text-[#43474d]">
+                                    / sak
+                                </span>
+                            </div>
+                        </div>
+                    </div>
 
                 <div class="p-4 bg-[#f7f9fb] border-t border-[#c3c6ce]">
                     <button
