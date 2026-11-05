@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="preconnect" href="https://lh3.googleusercontent.com" crossorigin>
+    <!-- Preload Hero WebP lokal -->
     <link
         rel="preload"
         as="image"
-        href="https://lh3.googleusercontent.com/aida-public/AB6AXuCH1LncYwTD4Z9TgiSK9Wis6FhdFNABTf3GOFjjWUDD-ranfG_LHgzRhzaGSZ8T-oCQUYINkVG03Jgl634pvGpaG2Wpt-JmpCBGoiBr3fjZzg5jJAhBYwv-w2kBt9j4HGhybjEbxOYeG3rVj7dyIwKtMCIqbqMflNsW4PujFdLa_QYT985yCrBTqaBVVxOn5rA-tRK51fb72ujRLbnoTfQGArfX2Dz8RF8MqDKh3n3DOPTylVxB12WY"
+        href="{{ asset('images/hero-sinarjaya.webp') }}"
         fetchpriority="high"
-    >
+    />
 
     <title>Toko Bangunan Sinar Jaya | Jatayu, Kebayoran Baru</title>
 
@@ -20,19 +21,37 @@
     <link rel="canonical"
           href="https://tokobangunan-sinarjaya.vercel.app/">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
-        rel="stylesheet"
-    />
+        <!-- Google Fonts: non-blocking loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 
-    <!-- Material Symbols -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
-        rel="stylesheet"
-    />
+        <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+            onload="this.onload=null;this.rel='stylesheet'"
+        >
+        <noscript>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+                rel="stylesheet"
+            >
+        </noscript>
+
+        <!-- Material Symbols: non-blocking loading -->
+        <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
+            onload="this.onload=null;this.rel='stylesheet'"
+        >
+        <noscript>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
+                rel="stylesheet"
+            >
+        </noscript>
+
 
     <!-- Tailwind CSS melalui Vite -->
     @vite('resources/css/app.css')
@@ -165,9 +184,11 @@
 
     <!-- Hero Background Image -->
         <img
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH1LncYwTD4Z9TgiSK9Wis6FhdFNABTf3GOFjjWUDD-ranfG_LHgzRhzaGSZ8T-oCQUYINkVG03Jgl634pvGpaG2Wpt-JmpCBGoiBr3fjZzg5jJAhBYwv-w2kBt9j4HGhybjEbxOYeG3rVj7dyIwKtMCIqbqMflNsW4PujFdLa_QYT985yCrBTqaBVVxOn5rA-tRK51fb72ujRLbnoTfQGArfX2Dz8RF8MqDKh3n3DOPTylVxB12WY"
+            src="{{ asset('images/hero-sinarjaya.webp') }}"
             alt=""
             aria-hidden="true"
+            width="512"
+            height="256"
             loading="eager"
             fetchpriority="high"
             decoding="async"
