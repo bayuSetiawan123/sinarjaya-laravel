@@ -15,6 +15,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin/>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
@@ -26,157 +27,8 @@
         rel="stylesheet"
     />
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "surface-container-highest": "#e0e3e5",
-                        "on-secondary-fixed": "#380d00",
-                        "on-primary-fixed": "#011d35",
-                        "primary-fixed": "#d1e4ff",
-                        "tertiary-container": "#1a283a",
-                        "primary-container": "#0f2942",
-                        "secondary-container": "#fc6018",
-                        "on-error": "#ffffff",
-                        "on-primary": "#ffffff",
-                        "primary": "#001428",
-                        "on-surface-variant": "#43474d",
-                        "on-secondary-container": "#531800",
-                        "inverse-primary": "#b0c9e8",
-                        "secondary-fixed": "#ffdbcf",
-                        "on-primary-container": "#7991af",
-                        "background": "#f7f9fb",
-                        "on-surface": "#191c1e",
-                        "on-secondary-fixed-variant": "#802a00",
-                        "on-error-container": "#93000a",
-                        "on-tertiary": "#ffffff",
-                        "tertiary-fixed": "#d5e3fc",
-                        "surface-bright": "#f7f9fb",
-                        "outline": "#74777e",
-                        "surface-container": "#eceef0",
-                        "primary-fixed-dim": "#b0c9e8",
-                        "on-secondary": "#ffffff",
-                        "on-background": "#191c1e",
-                        "surface-dim": "#d8dadc",
-                        "error": "#ba1a1a",
-                        "inverse-surface": "#2d3133",
-                        "secondary": "#a83900",
-                        "error-container": "#ffdad6",
-                        "surface-variant": "#e0e3e5",
-                        "tertiary": "#051325",
-                        "secondary-fixed-dim": "#ffb59a",
-                        "on-primary-fixed-variant": "#314863",
-                        "tertiary-fixed-dim": "#b9c7df",
-                        "outline-variant": "#c3c6ce",
-                        "inverse-on-surface": "#eff1f3",
-                        "surface-tint": "#49607c",
-                        "surface-container-lowest": "#ffffff",
-                        "surface-container-high": "#e6e8ea",
-                        "on-tertiary-fixed": "#0d1c2e",
-                        "surface": "#f7f9fb",
-                        "on-tertiary-fixed-variant": "#3a485b",
-                        "surface-container-low": "#f2f4f6"
-                    },
-
-                    borderRadius: {
-                        DEFAULT: "0.125rem",
-                        lg: "0.25rem",
-                        xl: "0.5rem",
-                        full: "0.75rem"
-                    },
-
-                    fontFamily: {
-                        "headline-md": ["Plus Jakarta Sans"],
-                        "display-lg": ["Plus Jakarta Sans"],
-                        "body-md": ["Plus Jakarta Sans"],
-                        "headline-lg-mobile": ["Plus Jakarta Sans"],
-                        "headline-sm": ["Plus Jakarta Sans"],
-                        "label-lg": ["Plus Jakarta Sans"],
-                        "label-sm": ["Plus Jakarta Sans"],
-                        "display-lg-mobile": ["Plus Jakarta Sans"],
-                        "headline-lg": ["Plus Jakarta Sans"],
-                        "title-lg": ["Plus Jakarta Sans"],
-                        "label-md": ["Plus Jakarta Sans"],
-                        "body-lg": ["Plus Jakarta Sans"],
-                        "title-md": ["Plus Jakarta Sans"],
-                        "body-sm": ["Plus Jakarta Sans"]
-                    },
-
-                    fontSize: {
-                        "headline-md": ["24px", {
-                            lineHeight: "32px",
-                            letterSpacing: "-0.01em",
-                            fontWeight: "600"
-                        }],
-                        "display-lg": ["48px", {
-                            lineHeight: "56px",
-                            letterSpacing: "-0.02em",
-                            fontWeight: "800"
-                        }],
-                        "body-md": ["14px", {
-                            lineHeight: "20px",
-                            fontWeight: "400"
-                        }],
-                        "headline-lg-mobile": ["24px", {
-                            lineHeight: "32px",
-                            letterSpacing: "-0.01em",
-                            fontWeight: "700"
-                        }],
-                        "headline-sm": ["20px", {
-                            lineHeight: "28px",
-                            fontWeight: "600"
-                        }],
-                        "label-lg": ["14px", {
-                            lineHeight: "20px",
-                            letterSpacing: "0.01em",
-                            fontWeight: "600"
-                        }],
-                        "label-sm": ["11px", {
-                            lineHeight: "14px",
-                            letterSpacing: "0.04em",
-                            fontWeight: "700"
-                        }],
-                        "display-lg-mobile": ["32px", {
-                            lineHeight: "40px",
-                            letterSpacing: "-0.01em",
-                            fontWeight: "800"
-                        }],
-                        "headline-lg": ["32px", {
-                            lineHeight: "40px",
-                            letterSpacing: "-0.015em",
-                            fontWeight: "700"
-                        }],
-                        "title-lg": ["18px", {
-                            lineHeight: "26px",
-                            fontWeight: "600"
-                        }],
-                        "label-md": ["12px", {
-                            lineHeight: "16px",
-                            letterSpacing: "0.02em",
-                            fontWeight: "600"
-                        }],
-                        "body-lg": ["16px", {
-                            lineHeight: "24px",
-                            fontWeight: "400"
-                        }],
-                        "title-md": ["16px", {
-                            lineHeight: "24px",
-                            fontWeight: "600"
-                        }],
-                        "body-sm": ["12px", {
-                            lineHeight: "16px",
-                            fontWeight: "400"
-                        }]
-                    }
-                }
-            }
-        };
-    </script>
+    <!-- Tailwind CSS melalui Vite -->
+    @vite('resources/css/app.css')
 
     <style>
         .material-symbols-outlined {

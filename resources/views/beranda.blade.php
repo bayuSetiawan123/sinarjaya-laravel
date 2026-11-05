@@ -33,72 +33,8 @@
         rel="stylesheet"
     />
 
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "surface-variant": "#e0e3e5",
-                        "inverse-primary": "#b0c9e8",
-                        "tertiary": "#051325",
-                        "surface-dim": "#d8dadc",
-                        "on-background": "#191c1e",
-                        "on-primary-fixed": "#011d35",
-                        "surface-bright": "#f7f9fb",
-                        "on-tertiary": "#ffffff",
-                        "on-primary": "#ffffff",
-                        "secondary-container": "#fc6018",
-                        "on-secondary-fixed-variant": "#802a00",
-                        "surface-container-lowest": "#ffffff",
-                        "error-container": "#ffdad6",
-                        "primary-container": "#0f2942",
-                        "surface": "#f7f9fb",
-                        "primary": "#001428",
-                        "error": "#ba1a1a",
-                        "surface-container-high": "#e6e8ea",
-                        "on-secondary": "#ffffff",
-                        "inverse-on-surface": "#eff1f3",
-                        "outline-variant": "#c3c6ce",
-                        "on-surface": "#191c1e",
-                        "surface-container": "#eceef0",
-                        "secondary": "#a83900",
-                        "on-surface-variant": "#43474d",
-                        "on-error-container": "#93000a"
-                    },
-
-                    borderRadius: {
-                        DEFAULT: "0.125rem",
-                        lg: "0.25rem",
-                        xl: "0.5rem",
-                        full: "0.75rem"
-                    },
-
-                    fontFamily: {
-                        "sans-jakarta": ["Plus Jakarta Sans", "sans-serif"]
-                    },
-
-                    fontSize: {
-                        "body-sm": ["12px", { lineHeight: "16px" }],
-                        "body-md": ["14px", { lineHeight: "20px" }],
-                        "body-lg": ["16px", { lineHeight: "24px" }],
-                        "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.04em" }],
-                        "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.02em" }],
-                        "label-lg": ["14px", { lineHeight: "20px" }],
-                        "title-md": ["16px", { lineHeight: "24px" }],
-                        "title-lg": ["18px", { lineHeight: "26px" }],
-                        "headline-sm": ["20px", { lineHeight: "28px" }],
-                        "headline-md": ["24px", { lineHeight: "32px" }],
-                        "headline-lg": ["32px", { lineHeight: "40px" }],
-                        "display-lg": ["48px", { lineHeight: "56px" }]
-                    }
-                }
-            }
-        };
-    </script>
+    <!-- Tailwind CSS melalui Vite -->
+    @vite('resources/css/app.css')
 
     <style>
         .material-symbols-outlined {
