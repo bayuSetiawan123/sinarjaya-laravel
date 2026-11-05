@@ -4,6 +4,13 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link
+        rel="preload"
+        as="image"
+        href="https://lh3.googleusercontent.com/aida-public/AB6AXuCH1LncYwTD4Z9TgiSK9Wis6FhdFNABTf3GOFjjWUDD-ranfG_LHgzRhzaGSZ8T-oCQUYINkVG03Jgl634pvGpaG2Wpt-JmpCBGoiBr3fjZzg5jJAhBYwv-w2kBt9j4HGhybjEbxOYeG3rVj7dyIwKtMCIqbqMflNsW4PujFdLa_QYT985yCrBTqaBVVxOn5rA-tRK51fb72ujRLbnoTfQGArfX2Dz8RF8MqDKh3n3DOPTylVxB12WY"
+        fetchpriority="high"
+    >
+
     <title>Toko Bangunan Sinar Jaya | Jatayu, Kebayoran Baru</title>
 
     <meta name="description"
