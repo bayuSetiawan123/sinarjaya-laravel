@@ -27,10 +27,11 @@
 
         <link
             rel="preload"
-            as="style"
-            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
-            onload="this.onload=null;this.rel='stylesheet'"
-        >
+            as="image"
+            href="{{ asset('images/hero-sinarjaya.avif') }}"
+            type="image/avif"
+            fetchpriority="high"
+        />
         <noscript>
             <link
                 href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
@@ -183,17 +184,24 @@
 <div class="absolute inset-0 z-0">
 
     <!-- Hero Background Image -->
+        <picture class="absolute inset-0 block">
+        <source
+            srcset="{{ asset('images/hero-sinarjaya.avif') }}"
+            type="image/avif"
+        >
+
         <img
-            src="{{ asset('images/hero-sinarjaya.webp') }}"
+            src="{{ asset('images/hero-sinarjaya-fallback.webp') }}"
             alt=""
             aria-hidden="true"
             width="512"
-            height="256"
+            height="279"
             loading="eager"
             fetchpriority="high"
             decoding="async"
             class="absolute inset-0 w-full h-full object-cover object-center"
         >
+    </picture>
 
         <!-- Gradient Overlay -->
         <div class="absolute inset-0 bg-gradient-to-r from-[#001428] via-[#001428]/95 to-[#0f2942]/85"></div>
