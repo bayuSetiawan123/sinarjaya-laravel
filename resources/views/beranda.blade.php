@@ -13,6 +13,7 @@
           href="https://tokobangunan-sinarjaya.vercel.app/">
 
     <!-- Persiapkan koneksi Google Fonts -->
+     
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 
@@ -43,12 +44,12 @@
     <link
         rel="preload"
         as="style"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=add_shopping_cart,arrow_forward,call,chevron_right,close,delete,description,directions,filter_alt,format_paint,grid_view,inventory_2,layers,location_on,plumbing,schedule,search,shopping_cart,store,view_column&display=block"
         onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript>
         <link
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=add_shopping_cart,arrow_forward,call,chevron_right,close,delete,description,directions,filter_alt,format_paint,grid_view,inventory_2,layers,location_on,plumbing,schedule,search,shopping_cart,store,view_column&display=block"
             rel="stylesheet"
         />
     </noscript>
@@ -78,6 +79,8 @@
 
 <body class="bg-[#f7f9fb] text-[#191c1e] antialiased font-sans-jakarta">
 
+<a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:text-[#001428] focus:px-4 focus:py-2 focus:rounded">Lewati ke konten utama</a>
+
 <!-- ========================================================= -->
 <!-- NAVBAR -->
 <!-- ========================================================= -->
@@ -95,7 +98,7 @@
             </a>
 
             <div class="relative w-full hidden sm:block">
-                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#74777e]">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#5f6368]">
                     <span class="material-symbols-outlined">search</span>
                 </div>
 
@@ -105,7 +108,7 @@
                     autocomplete="off"
                     aria-label="Cari produk"
                     placeholder="Cari semen, besi beton, cat dinding, pipa..."
-                    class="w-full pl-10 pr-4 py-2 bg-white border border-[#c3c6ce] rounded text-sm text-[#191c1e] placeholder:text-[#74777e] focus:outline-none focus:ring-2 focus:ring-[#0f2942] focus:border-[#0f2942]"
+                    class="w-full pl-10 pr-4 py-2 bg-white border border-[#c3c6ce] rounded text-sm text-[#191c1e] placeholder:text-[#5f6368] focus:outline-none focus:ring-2 focus:ring-[#0f2942] focus:border-[#0f2942]"
                 />
 
                 <div class="absolute inset-y-0 right-0 pr-2 flex items-center">
@@ -149,7 +152,7 @@
                 <span class="material-symbols-outlined text-[#a83900]">call</span>
 
                 <div class="leading-tight text-left">
-                    <p class="text-[11px] text-[#74777e]">Kontak Toko</p>
+                    <p class="text-[11px] text-[#5f6368]">Kontak Toko</p>
                     <p class="text-xs font-semibold">0811-1075-525</p>
                 </div>
             </a>
@@ -173,6 +176,7 @@
     </div>
 </header>
 
+<main id="main-content">
 
 <!-- ========================================================= -->
 <!-- HERO -->
@@ -305,6 +309,8 @@
 <section class="py-14 bg-[#f2f4f6] border-b border-[#c3c6ce]">
     <div class="max-w-7xl mx-auto px-4 md:px-8">
 
+        <h2 class="sr-only">Keunggulan Toko Sinar Jaya</h2>
+
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
             <div class="bg-white p-6 rounded border border-[#c3c6ce] shadow-sm">
@@ -414,7 +420,7 @@
                     Semen, mortar, pasir dan material sejenis.
                 </p>
 
-                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#74777e] flex justify-between">
+                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#5f6368] flex justify-between">
                     <span>Material</span>
                     <span class="material-symbols-outlined text-base">chevron_right</span>
                 </div>
@@ -431,7 +437,7 @@
                     Besi beton, baja ringan dan kebutuhan struktur.
                 </p>
 
-                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#74777e] flex justify-between">
+                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#5f6368] flex justify-between">
                     <span>Material</span>
                     <span class="material-symbols-outlined text-base">chevron_right</span>
                 </div>
@@ -448,7 +454,7 @@
                     Cat dinding, pelapis dan kebutuhan finishing.
                 </p>
 
-                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#74777e] flex justify-between">
+                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#5f6368] flex justify-between">
                     <span>Material</span>
                     <span class="material-symbols-outlined text-base">chevron_right</span>
                 </div>
@@ -465,7 +471,7 @@
                     Pipa, fitting dan perlengkapan sanitari.
                 </p>
 
-                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#74777e] flex justify-between">
+                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#5f6368] flex justify-between">
                     <span>Material</span>
                     <span class="material-symbols-outlined text-base">chevron_right</span>
                 </div>
@@ -482,7 +488,7 @@
                     Keramik, granit dan material finishing lantai.
                 </p>
 
-                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#74777e] flex justify-between">
+                <div class="mt-6 pt-3 border-t border-[#eceef0] text-xs text-[#5f6368] flex justify-between">
                     <span>Material</span>
                     <span class="material-symbols-outlined text-base">chevron_right</span>
                 </div>
@@ -586,7 +592,7 @@
                                 Contoh
                             </span>
 
-                            <span class="text-[11px] text-[#74777e]">
+                            <span class="text-[11px] text-[#5f6368]">
                                 SMN-TR-50
                             </span>
                         </div>
@@ -610,7 +616,7 @@
                         </h3>
 
                         <div class="pt-3 border-t border-[#eceef0]">
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 Harga contoh
                             </p>
 
@@ -653,7 +659,7 @@
                                 Contoh
                             </span>
 
-                            <span class="text-[11px] text-[#74777e]">
+                            <span class="text-[11px] text-[#5f6368]">
                                 BSI-UL-12
                             </span>
                         </div>
@@ -677,7 +683,7 @@
                         </h3>
 
                         <div class="pt-3 border-t border-[#eceef0]">
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 Harga contoh
                             </p>
 
@@ -720,7 +726,7 @@
                                 Contoh
                             </span>
 
-                            <span class="text-[11px] text-[#74777e]">
+                            <span class="text-[11px] text-[#5f6368]">
                                 DLX-WS-20L
                             </span>
                         </div>
@@ -744,7 +750,7 @@
                         </h3>
 
                         <div class="pt-3 border-t border-[#eceef0]">
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 Harga contoh
                             </p>
 
@@ -787,7 +793,7 @@
                                 Contoh
                             </span>
 
-                            <span class="text-[11px] text-[#74777e]">
+                            <span class="text-[11px] text-[#5f6368]">
                                 PIP-RC-D3
                             </span>
                         </div>
@@ -811,7 +817,7 @@
                         </h3>
 
                         <div class="pt-3 border-t border-[#eceef0]">
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 Harga contoh
                             </p>
 
@@ -854,7 +860,7 @@
                                 Contoh
                             </span>
 
-                            <span class="text-[11px] text-[#74777e]">
+                            <span class="text-[11px] text-[#5f6368]">
                                 BJR-C75-75
                             </span>
                         </div>
@@ -878,7 +884,7 @@
                         </h3>
 
                         <div class="pt-3 border-t border-[#eceef0]">
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 Harga contoh
                             </p>
 
@@ -921,7 +927,7 @@
                                 Contoh
                             </span>
 
-                            <span class="text-[11px] text-[#74777e]">
+                            <span class="text-[11px] text-[#5f6368]">
                                 MRT-MU-380
                             </span>
                         </div>
@@ -945,7 +951,7 @@
                         </h3>
 
                         <div class="pt-3 border-t border-[#eceef0]">
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 Harga contoh
                             </p>
 
@@ -1264,6 +1270,7 @@
     </div>
 </section>
 
+</main>
 
 <!-- ========================================================= -->
 <!-- FOOTER -->
@@ -1290,9 +1297,9 @@
 
         <div>
 
-            <h4 class="text-lg font-bold text-white mb-4">
+            <h2 class="text-lg font-bold text-white mb-4">
                 Menu
-            </h4>
+            </h2>
 
             <ul class="space-y-2.5 text-sm text-white/65">
 
@@ -1327,9 +1334,9 @@
 
         <div>
 
-            <h4 class="text-lg font-bold text-white mb-4">
+            <h2 class="text-lg font-bold text-white mb-4">
                 Kontak
-            </h4>
+            </h2>
 
             <div class="space-y-3 text-sm text-white/65">
 
@@ -1356,9 +1363,9 @@
 
         <div>
 
-            <h4 class="text-lg font-bold text-white mb-4">
+            <h2 class="text-lg font-bold text-white mb-4">
                 Permintaan
-            </h4>
+            </h2>
 
             <p class="text-sm text-white/65 leading-relaxed mb-4">
                 Gunakan RFQ untuk memilih beberapa produk sekaligus sebelum menghubungi toko.
@@ -1423,6 +1430,10 @@
     id="rfqDrawer"
     class="fixed top-0 right-0 h-full w-full max-w-md bg-white z-50 shadow-2xl border-l border-[#c3c6ce] transform translate-x-full transition-transform duration-300 flex flex-col"
     aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="rfqHeader"
+    inert
 >
 
     <div class="p-5 border-b border-[#c3c6ce] flex items-center justify-between bg-[#f2f4f6]">
@@ -1443,7 +1454,7 @@
             type="button"
             onclick="toggleRfqDrawer()"
             class="p-1.5 rounded hover:bg-[#eceef0] text-[#43474d]"
-            title="Tutup"
+            title="Tutup" aria-label="Tutup keranjang RFQ" id="rfqCloseButton"
         >
             <span class="material-symbols-outlined">
                 close
@@ -1457,7 +1468,7 @@
 
         <div class="py-12 text-center">
 
-            <span class="material-symbols-outlined text-4xl text-[#74777e]">
+            <span class="material-symbols-outlined text-4xl text-[#5f6368]">
                 shopping_cart
             </span>
 
@@ -1488,7 +1499,7 @@
 
         </div>
 
-        <p class="text-xs text-[#74777e]">
+        <p class="text-xs text-[#5f6368]">
             Harga pada halaman ini masih berupa data contoh dan harus dikonfirmasi ke toko.
         </p>
 
@@ -1551,6 +1562,7 @@
 
     let rfqState = [];
     let activeCategory = 'Semua';
+    let rfqOpener = null;
 
 
     function formatRupiah(value) {
@@ -1589,38 +1601,46 @@
 
     function toggleRfqDrawer() {
 
-        const isClosed = drawer.classList.contains('translate-x-full');
+        if (drawer.hasAttribute('inert')) {
 
-        if (isClosed) {
+            rfqOpener = document.activeElement instanceof HTMLElement
+                ? document.activeElement
+                : null;
 
+            drawer.removeAttribute('inert');
+            drawer.setAttribute('aria-hidden', 'false');
             drawer.classList.remove('translate-x-full');
 
             backdrop.classList.remove(
                 'opacity-0',
                 'pointer-events-none'
             );
-
             backdrop.classList.add('opacity-100');
-
-            drawer.setAttribute('aria-hidden', 'false');
 
             document.body.classList.add('overflow-hidden');
 
-        } else {
-
-            drawer.classList.add('translate-x-full');
-
-            backdrop.classList.add(
-                'opacity-0',
-                'pointer-events-none'
-            );
-
-            backdrop.classList.remove('opacity-100');
-
-            drawer.setAttribute('aria-hidden', 'true');
-
-            document.body.classList.remove('overflow-hidden');
+            document.getElementById('rfqCloseButton')?.focus();
+            return;
         }
+
+        const opener = rfqOpener;
+        rfqOpener = null;
+
+        if (opener && opener.isConnected) {
+            opener.focus();
+        }
+
+        drawer.setAttribute('aria-hidden', 'true');
+        drawer.setAttribute('inert', '');
+        drawer.classList.add('translate-x-full');
+
+        backdrop.classList.add(
+            'opacity-0',
+            'pointer-events-none'
+        );
+        backdrop.classList.remove('opacity-100');
+
+        document.body.classList.remove('overflow-hidden');
     }
 
 
@@ -1644,7 +1664,7 @@
 
             rfqList.innerHTML = `
                 <div class="py-12 text-center">
-                    <span class="material-symbols-outlined text-4xl text-[#74777e]">
+                    <span class="material-symbols-outlined text-4xl text-[#5f6368]">
                         shopping_cart
                     </span>
 
@@ -1687,7 +1707,7 @@
                         <button
                             type="button"
                             data-action="remove"
-                            class="text-[#74777e] hover:text-[#ba1a1a]"
+                            class="text-[#5f6368] hover:text-[#ba1a1a]"
                             title="Hapus"
                         >
                             <span class="material-symbols-outlined text-lg">
@@ -1726,7 +1746,7 @@
 
                         <div class="text-right">
 
-                            <p class="text-xs text-[#74777e]">
+                            <p class="text-xs text-[#5f6368]">
                                 ${item.unit}
                             </p>
 
@@ -1991,24 +2011,58 @@ Mohon konfirmasi harga dan ketersediaannya.`;
 
     document.addEventListener('keydown', event => {
 
-        if (event.key === 'Escape') {
+        const drawerIsOpen = !drawer.hasAttribute('inert');
 
-            if (!drawer.classList.contains('translate-x-full')) {
+        if (drawerIsOpen) {
+
+            if (event.key === 'Escape') {
+                event.preventDefault();
                 toggleRfqDrawer();
+                return;
             }
 
-        }
+            if (event.key === 'Tab') {
 
+                const focusableElements = Array.from(
+                    drawer.querySelectorAll(
+                        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+                    )
+                ).filter(element => element.getClientRects().length > 0);
+
+                if (focusableElements.length === 0) {
+                    event.preventDefault();
+                    return;
+                }
+
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+
+                if (
+                    event.shiftKey &&
+                    (document.activeElement === firstElement ||
+                     !drawer.contains(document.activeElement))
+                ) {
+                    event.preventDefault();
+                    lastElement.focus();
+                } else if (
+                    !event.shiftKey &&
+                    (document.activeElement === lastElement ||
+                     !drawer.contains(document.activeElement))
+                ) {
+                    event.preventDefault();
+                    firstElement.focus();
+                }
+            }
+
+            return;
+        }
 
         if (
             (event.ctrlKey || event.metaKey) &&
             event.key.toLowerCase() === 'k'
         ) {
-
             event.preventDefault();
-
             searchInput?.focus();
-
         }
 
     });
