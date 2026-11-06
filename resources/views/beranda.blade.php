@@ -4,15 +4,6 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link rel="preconnect" href="https://lh3.googleusercontent.com" crossorigin>
-    <!-- Preload Hero WebP lokal -->
-    <link
-        rel="preload"
-        as="image"
-        href="{{ asset('images/hero-sinarjaya.webp') }}"
-        fetchpriority="high"
-    />
-
     <title>Toko Bangunan Sinar Jaya | Jatayu, Kebayoran Baru</title>
 
     <meta name="description"
@@ -21,38 +12,46 @@
     <link rel="canonical"
           href="https://tokobangunan-sinarjaya.vercel.app/">
 
-        <!-- Google Fonts: non-blocking loading -->
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <!-- Persiapkan koneksi Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 
+    <!-- Preload Hero AVIF lokal -->
+    <link
+        rel="preload"
+        as="image"
+        href="{{ asset('images/hero/hero-sinarjaya.avif') }}"
+        type="image/avif"
+        fetchpriority="high"
+    />
+
+    <!-- Plus Jakarta Sans -->
+    <link
+        rel="preload"
+        as="style"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
         <link
-            rel="preload"
-            as="image"
-            href="{{ asset('images/hero-sinarjaya.avif') }}"
-            type="image/avif"
-            fetchpriority="high"
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+            rel="stylesheet"
         />
-        <noscript>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
-                rel="stylesheet"
-            >
-        </noscript>
+    </noscript>
 
-        <!-- Material Symbols: non-blocking loading -->
+    <!-- Material Symbols -->
+    <link
+        rel="preload"
+        as="style"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
         <link
-            rel="preload"
-            as="style"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
-            onload="this.onload=null;this.rel='stylesheet'"
-        >
-        <noscript>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,wght@0..1,100..700&display=swap"
-                rel="stylesheet"
-            >
-        </noscript>
-
+            rel="stylesheet"
+        />
+    </noscript>
 
     <!-- Tailwind CSS melalui Vite -->
     @vite('resources/css/app.css')
@@ -75,6 +74,7 @@
         }
     </style>
 </head>
+
 
 <body class="bg-[#f7f9fb] text-[#191c1e] antialiased font-sans-jakarta">
 
@@ -181,17 +181,18 @@
 <section id="home" class="relative bg-[#001428] overflow-hidden text-white">
 
     
+
 <div class="absolute inset-0 z-0">
 
     <!-- Hero Background Image -->
-        <picture class="absolute inset-0 block">
+    <picture class="absolute inset-0 block">
         <source
-            srcset="{{ asset('images/hero-sinarjaya.avif') }}"
+            srcset="{{ asset('images/hero/hero-sinarjaya.avif') }}"
             type="image/avif"
         >
 
         <img
-            src="{{ asset('images/hero-sinarjaya-fallback.webp') }}"
+            src="{{ asset('images/hero/hero-sinarjaya-fallback.webp') }}"
             alt=""
             aria-hidden="true"
             width="512"
@@ -203,13 +204,14 @@
         >
     </picture>
 
-        <!-- Gradient Overlay -->
-        <div class="absolute inset-0 bg-gradient-to-r from-[#001428] via-[#001428]/95 to-[#0f2942]/85"></div>
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-[#001428] via-[#001428]/95 to-[#0f2942]/85"></div>
 
-        <!-- Radial Overlay -->
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#a83900]/20 via-transparent to-transparent"></div>
+    <!-- Radial Overlay -->
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#a83900]/20 via-transparent to-transparent"></div>
 
-    </div>
+</div>
+
 
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-24 lg:py-28">
@@ -592,7 +594,7 @@
                         <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
                             <img
                                 class="h-full w-auto object-contain mix-blend-multiply"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6FqOsQ6rB2Xz82YIiDV5cTtR8EmDJDNw04NBOIXYfLQbhiitBEYCGQ4QbIeEDK6pyKb2yIgMEPtCF-H59LCEd5MJz_ZqEYfx6sN0OPv61AVvOFO05GOZGWIVguNqTgAQNycdU920s09W7RAN_GIMK_DbWaqD5b6COZvSNTk8ARfP70pvuaiKhn3h2yFIGYGiC6gzFs716IRMlfP3MGh1tjXEJWWFjQuKx4gv38-XvcxAMkkbSdYij"
+                                src="{{ asset('images/products/semen-tiga-roda.webp') }}"
                                 alt="Contoh gambar semen"
                                 loading="lazy"
                                 decoding="async"
@@ -659,7 +661,7 @@
                         <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
                             <img
                                 class="h-full w-auto object-contain mix-blend-multiply"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQk_lOp9r7KurDi00b783TgCCMGvMUynd4aBpYHuNoQM5h_P9JcaT1t_qdkM-saR2R0AU3szFa4Qt7JW2q3V-05Z_TU-1Jdlz5v35jIwwMQC7kWBN-bA46C6h7ujEFS2HkY9FLkW8RjgXhxOgfz9smat1A_yKmPN_9efmQPGRY_GE1K4qq5fW756nlZXnmmXGBWSvLskCtk1P4qYUmAOOG9SSIbaWhdWe13yytm0UINEI6AZzUIBgK"
+                                src="{{ asset('images/products/besi-beton-ulir.webp') }}"
                                 alt="Contoh gambar besi beton"
                                 loading="lazy"
                                 decoding="async"
@@ -726,7 +728,7 @@
                         <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
                             <img
                                 class="h-full w-auto object-contain mix-blend-multiply"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-vkxyqYhpihV-bN4wiUBZnjabj0RMdXRKX9e8zHjZ-jaqHM88DeTRmd6N1hbcaa5VTXVhOKfHT4Ui6GhVrg_crhFRpktfu4R7BBvAMscfZ2gOup38QoXpsrjHSYwE3cXLpVFJ1GjJ0h1iC57MPIb3K8WzQ8B4GLHzEgqOVj0axat9NxZNdMBmna086PfFmAG1czgO4DBmfKuiz-ZOViukGEbaU62ouqDDiqbhOLz1K3FdAm3x-QM5"
+                                src="{{ asset('images/products/cat-dulux-weathershield.webp') }}"
                                 alt="Contoh gambar cat"
                                 loading="lazy"
                                 decoding="async"
@@ -793,7 +795,7 @@
                         <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
                             <img
                                 class="h-full w-auto object-contain mix-blend-multiply"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6gIw7w-nPlx49NAqIFM7Mqhr0h4jrD8bWAV4ZBevx9BwR_48YLCSHeq0kpAaGrIuvWfe42nklfUQ5bVRE1oHkS778Sa9JYg3sHzLN4R0a6L5Ol-pwxQl4H4r5kEagyfNjhkeUCK3mtmePmmpFf9t7H4vRS8hwHS_QIDQnHJp7Av09jwcDoaAmfqJ27nv57hRrhOOppRRKEFoy_ZfQJCgG_Q_y3E9IUrTALljA02hlp9a240r5GjLz"
+                                src="{{ asset('images/products/pipa-pvc-rucika.webp') }}"
                                 alt="Contoh gambar pipa PVC"
                                 loading="lazy"
                                 decoding="async"
@@ -860,7 +862,7 @@
                         <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
                             <img
                                 class="h-full w-auto object-contain mix-blend-multiply"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB16XSVkQ5yF52lerp6wWb9AYkiEV8dZMJb3k6RXf0s1lV4LApcF-PDeh_FzcKYPw2Z8UJ_nxK67KwyQbe3ojoOoCaIpFij8EYkh1BLFQqSjE0j3kWtlR-kn9iAtV9hB5ap81-DvY4zM8W7N-BnZEhUrX-ke39p6cfdouomqW9d73cMAEBq3bgKG4iXXHybqXIAzZgeyoaHiDjFMYJUS-irzI6wW-UGu6QvfLZtHwcsjKb3sc79nwjT"
+                                src="{{ asset('images/products/baja-ringan-canal-c75.webp') }}"
                                 alt="Contoh gambar baja ringan"
                                 loading="lazy"
                                 decoding="async"
@@ -927,7 +929,7 @@
                         <div class="h-44 w-full bg-[#f2f4f6] rounded flex items-center justify-center p-3 relative overflow-hidden mb-4">
                             <img
                                 class="h-full w-auto object-contain mix-blend-multiply"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_5h_aSPg13RX6Tq8djSKwe1P7NYNw_B8LchmocEjbRPGxD3LAS21BUBYVHmGVwNZDvFlFA47GCSLbIz-cynVoUw2QpOyqI9-itnYkh5pgOFeqUs5u5-mW6zvJ_jRCz8I9F0Qz-oWK-sOHo0NM-udjLZABgZpKfA8t57Blwa13_-Olamqup5LAkOa7HKoG2iYTPRDy_G76UzaCpl56M6Rm_uQC6EK8yOMNWp_n3-X1BrPG-rI2uQ"
+                                src="{{ asset('images/products/mortar-utama-mu380.webp') }}"
                                 alt="Contoh gambar mortar"
                                 loading="lazy"
                                 decoding="async"
