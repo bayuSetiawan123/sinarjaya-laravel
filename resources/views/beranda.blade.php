@@ -1393,7 +1393,7 @@
         <div class="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/50">
 
             <p>
-                © {{ date('Y') }} Sinar Jaya. Project website.
+                Â© {{ date('Y') }} Sinar Jaya. Project website.
             </p>
 
             <div class="flex items-center gap-5">
@@ -1533,6 +1533,63 @@
 
 
 <!-- ========================================================= -->
+<!-- NVIDIA AI ASSISTANT -->
+<div
+    id="aiAssistantWidget"
+    class="fixed bottom-5 right-4 z-[40]"
+    data-endpoint="{{ route('ai.chat') }}"
+    data-csrf="{{ csrf_token() }}"
+>
+    <section
+        id="aiAssistantPanel"
+        class="hidden absolute bottom-16 right-0 flex h-[min(620px,calc(100vh-6rem))] w-[calc(100vw-2rem)] max-w-[380px] flex-col overflow-hidden rounded-2xl border border-[#c3c6ce] bg-white shadow-2xl"
+        role="dialog"
+        aria-label="Asisten AI Sinar Jaya"
+        aria-modal="false"
+    >
+        <div class="flex items-center justify-between gap-3 bg-[#0f2942] px-4 py-3 text-white">
+            <div class="flex min-w-0 items-center gap-3">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/15 text-sm font-extrabold">AI</div>
+                <div class="min-w-0">
+                    <p class="truncate font-bold">Asisten AI Sinar Jaya</p>
+                    <p class="text-xs text-white/75">Informasi katalog dan material</p>
+                </div>
+            </div>
+            <button id="aiAssistantClose" type="button" class="rounded-lg px-3 py-2 text-sm font-semibold text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white" aria-label="Tutup asisten AI">Tutup</button>
+        </div>
+
+        <div id="aiAssistantMessages" class="flex-1 space-y-3 overflow-y-auto bg-[#f7f9fb] p-3" aria-live="polite" aria-relevant="additions text">
+            <div class="max-w-[92%] rounded-2xl rounded-tl-sm bg-white px-3 py-2.5 text-sm leading-relaxed text-[#191c1e] shadow-sm whitespace-pre-wrap">Halo! Saya Asisten AI Sinar Jaya. Saya bisa membantu menjelaskan katalog, membandingkan material, dan memberi rekomendasi awal. Apa yang ingin Anda ketahui?</div>
+        </div>
+
+        <div class="border-t border-[#c3c6ce] bg-white p-3">
+            <div class="mb-2 flex flex-wrap gap-2">
+                <button type="button" data-ai-prompt="Ringkas produk yang tersedia di katalog Sinar Jaya." class="rounded-full border border-[#c3c6ce] px-3 py-1.5 text-xs text-[#43474d] hover:bg-[#f2f4f6]">Ringkas katalog</button>
+                <button type="button" data-ai-prompt="Bantu saya memilih material berdasarkan kebutuhan renovasi rumah." class="rounded-full border border-[#c3c6ce] px-3 py-1.5 text-xs text-[#43474d] hover:bg-[#f2f4f6]">Rekomendasi</button>
+                <button type="button" data-ai-prompt="Jelaskan cara menggunakan fitur RFQ di website ini." class="rounded-full border border-[#c3c6ce] px-3 py-1.5 text-xs text-[#43474d] hover:bg-[#f2f4f6]">Cara pakai RFQ</button>
+            </div>
+            <form id="aiAssistantForm" class="flex items-end gap-2">
+                <label class="sr-only" for="aiAssistantInput">Tulis pertanyaan untuk Asisten AI</label>
+                <textarea id="aiAssistantInput" rows="2" maxlength="1500" required placeholder="Tulis pertanyaan Anda..." class="max-h-28 min-h-11 flex-1 resize-y rounded-xl border border-[#c3c6ce] px-3 py-2 text-sm text-[#191c1e] placeholder:text-[#5f6368] focus:border-[#0f2942] focus:outline-none focus:ring-2 focus:ring-[#0f2942]/20"></textarea>
+                <button id="aiAssistantSend" type="submit" class="rounded-xl bg-[#a83900] px-4 py-3 text-sm font-bold text-white hover:bg-[#8f2f00] disabled:cursor-not-allowed disabled:opacity-60">Kirim</button>
+            </form>
+            <p class="mt-2 text-[11px] leading-snug text-[#5f6368]">Jawaban AI bersifat informasi awal. Harga dan stok pada katalog merupakan data contoh dan perlu dikonfirmasi.</p>
+        </div>
+    </section>
+
+    <button id="aiAssistantToggle" type="button" class="flex items-center gap-2 rounded-full bg-[#a83900] px-4 py-3 text-sm font-bold text-white shadow-lg transition hover:bg-[#8f2f00] focus:outline-none focus:ring-4 focus:ring-[#a83900]/30" aria-expanded="false" aria-controls="aiAssistantPanel">
+        <span class="flex h-7 w-7 items-center justify-center rounded-full bg-white/15 text-xs">AI</span>
+        Tanya AI
+    </button>
+
+    <template id="aiAssistantUserTemplate">
+        <div class="ml-auto max-w-[92%] rounded-2xl rounded-tr-sm bg-[#0f2942] px-3 py-2.5 text-sm leading-relaxed text-white shadow-sm whitespace-pre-wrap break-words"></div>
+    </template>
+    <template id="aiAssistantReplyTemplate">
+        <div class="max-w-[92%] rounded-2xl rounded-tl-sm bg-white px-3 py-2.5 text-sm leading-relaxed text-[#191c1e] shadow-sm whitespace-pre-wrap break-words"></div>
+    </template>
+</div>
+
 <!-- TOAST -->
 <!-- ========================================================= -->
 
@@ -2074,5 +2131,6 @@ Mohon konfirmasi harga dan ketersediaannya.`;
 })();
 </script>
 
+    <script src="{{ asset('js/ai-assistant.js') }}"></script>
 </body>
 </html>
