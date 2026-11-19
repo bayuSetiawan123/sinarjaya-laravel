@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/ai-assistant/chat', [\App\Http\Controllers\NvidiaChatController::class, 'chat'])->middleware('throttle:10,1')->name('ai.chat');

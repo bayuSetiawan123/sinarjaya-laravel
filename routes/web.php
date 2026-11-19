@@ -57,4 +57,3 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-\Illuminate\Support\Facades\Route::post('/ai-assistant/chat', [\App\Http\Controllers\NvidiaChatController::class, 'chat'])->middleware('throttle:10,1')->name('ai.chat');
